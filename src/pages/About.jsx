@@ -9,12 +9,7 @@ const About = () => {
     { label: "Success Rate", value: "98%", icon: <Zap size={28} /> },
   ];
 
-  const team = [
-    { name: "Rahul Sharma", role: "CEO & Founder", image: "https://i.pravatar.cc/150?u=rahul" },
-    { name: "Priya Gupta", role: "IT Development Head", image: "https://i.pravatar.cc/150?u=priya" },
-    { name: "Amit Verma", role: "Lead Web Developer", image: "https://i.pravatar.cc/150?u=amit" },
-    { name: "Sneha Kapur", role: "UI/UX Designer", image: "https://i.pravatar.cc/150?u=sneha" },
-  ];
+
 
   return (
     <div className="pt-32 pb-20 animate-fadeIn bg-black">
@@ -83,29 +78,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-5xl font-bold text-white mb-4">Meet Our <span style={{ color: '#FF1E1E' }}>Experts</span></h2>
-          <p className="text-[#B0B0B0] max-w-2xl mx-auto">The brilliant minds behind our robust software systems and innovative solutions.</p>
-        </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {team.map((member, idx) => (
-            <div key={idx} className="group text-center">
-              <div className="relative overflow-hidden rounded-3xl mb-6 aspect-square border border-[#222]">
-                <img src={member.image} alt={member.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                <div 
-                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-end justify-center pb-8"
-                  style={{ background: 'linear-gradient(to top, rgba(255,30,30,0.8), transparent)' }}
-                >
-                </div>
-              </div>
-              <h3 className="text-xl font-bold text-white">{member.name}</h3>
-              <p className="text-sm font-medium" style={{ color: '#F5B400' }}>{member.role}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+
     </div>
   );
 };
