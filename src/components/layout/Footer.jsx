@@ -101,7 +101,8 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3 text-gray-400">
                 <MapPin size={18} className="text-[#FF1E1E] mt-1 flex-shrink-0" />
-                <span>208/9, 2nd Floor, Somdutt Chamber-2,<br/>Bhikaji Cama Place,<br/>New Delhi, Delhi 110066, India</span>
+                <span><strong className="text-white">Head Office:</strong> 208/9, 2nd Floor, Somdutt Chamber-2,<br/>Bhikaji Cama Place,<br/>New Delhi, Delhi 110066, India<br/><br/>
+                <strong className="text-white">Branch Office:</strong> 307/3rd Floor Vardhaman Gee Dee Plaza Building,<br/>Sector 12 Dwarka, New Delhi 110075</span>
               </li>
             </ul>
           </div>

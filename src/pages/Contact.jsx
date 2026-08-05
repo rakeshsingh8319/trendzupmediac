@@ -27,7 +27,8 @@ const Contact = () => {
             <a href="https://www.google.com/maps/search/?api=1&query=208/9+Somdutt+Chamber+2+Bhikaji+Cama+Place+New+Delhi" target="_blank" rel="noopener noreferrer" className="block p-8 rounded-[2rem] border card-hover transition-all hover:-translate-y-2 group" style={{ background: '#111', borderColor: '#222', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
               <MapPin className="w-10 h-10 mb-4 transition-transform group-hover:scale-110" style={{ color: '#FF1E1E' }} />
               <h3 className="text-white font-bold text-lg mb-2">Visit Us</h3>
-              <p className="text-gray-400 whitespace-pre-line leading-relaxed">208/9, 2nd Floor, Somdutt Chamber-2,{"\n"}Bhikaji Cama Place,{"\n"}New Delhi, Delhi 110066, India</p>
+              <p className="text-gray-400 whitespace-pre-line leading-relaxed"><strong className="text-white">Head Office:</strong> 208/9, 2nd Floor, Somdutt Chamber-2,{"\n"}Bhikaji Cama Place,{"\n"}New Delhi, Delhi 110066, India</p>
+              <p className="text-gray-400 whitespace-pre-line leading-relaxed mt-4"><strong className="text-white">Branch Office:</strong> 307/3rd Floor Vardhaman Gee Dee Plaza Building,{"\n"}Sector 12 Dwarka,{"\n"}New Delhi 110075</p>
               <span className="bg-[#FF1E1E] group-hover:bg-[#cc0000] text-white px-5 py-2.5 rounded-xl inline-block mt-6 transition-colors font-bold shadow-lg">
                 Get Directions
               </span>
